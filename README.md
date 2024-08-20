@@ -3,7 +3,7 @@
 This repository includes scrpits for a paper titled: Cross-prompt-Pre-finetuning-of-Language-Models-for-Short-Answer-Scoring (to be appear) extended version of [this paper](https://link.springer.com/chapter/10.1007/978-3-031-36272-9_7) . 
 
 There are three function in the main script.
-1. **Training**: Fine-tuning a BERT model for specific prompt based on a given configuration.
+1. **Training**: Fine-tuning a model for specific prompt based on a given configuration.
 2. **Evaluation**: Evaluating the fine-tuned model on a test dataset
 3. **Zero-shot Evaluation**: Evaluating the model without further fine-tuning.
 
