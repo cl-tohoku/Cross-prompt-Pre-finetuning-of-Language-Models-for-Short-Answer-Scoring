@@ -11,7 +11,7 @@ There are three function in the main script.
 
 > pip install -r requirement.txt
 
-##Usage
+## Usage
 ### Training
 #### BERT
 To train a model for a specific prompt with a conf file:
