@@ -18,21 +18,18 @@ To train a model for a specific prompt with a conf file:
 > python main.py train --config_path <path_to_config>
 
 #### LLM
-WIP
+we use the [alpaca-lora](https://github.com/tloen/alpaca-lora) script for finetuning and inferencing LLMs.
 
 ### Evaluation
 To evaluate the fine-tuned model on a test dataset from a specific prompt:
 >python main.py eval --config_path <path_to_config> [--test_path <path_to_test_data>] [--save_path <path_to_save_results>] [--prompt <prompt_id>] [--item <item_id>]
 
-#### LLM
-WIP
+
 
 
 ### Zero-shot evaluation
 >python main.py eval_zero --config_path <path_to_config> --save_path <path_to_save_results>
 
-#### LLM
-WIP
 
 
 ### Data set
